@@ -1,0 +1,11 @@
+{
+  "name": "@01ht/ht-offline-snackbar",
+  "version": "1.0.0",
+  "main": "ht-offline-snackbar.js",
+  "repository": "01ht/ht-offline-snackbar",
+  "author": "01HT Ltd",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.1"
+  }
+}

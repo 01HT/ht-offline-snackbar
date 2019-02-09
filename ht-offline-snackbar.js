@@ -1,9 +1,7 @@
-import { LitElement, html } from "@polymer/lit-element";
+import { LitElement, html, css } from "lit-element";
 
 class HTOfflineSnackbar extends LitElement {
-  render() {
-    return html`
-      <style>
+  static styles = css`<style>
       :host {
         display: block;
         position: fixed;
@@ -32,7 +30,10 @@ class HTOfflineSnackbar extends LitElement {
           margin: auto;
         }
       }
-    </style>
+    </style>`;
+
+  render() {
+    return html`
     <slot></slot>
   `;
   }

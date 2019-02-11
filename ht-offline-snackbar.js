@@ -1,7 +1,8 @@
 import { LitElement, html, css } from "lit-element";
 
 class HTOfflineSnackbar extends LitElement {
-  static styles = css`<style>
+  static get styles() {
+    return css`
       :host {
         display: block;
         position: fixed;
@@ -30,7 +31,8 @@ class HTOfflineSnackbar extends LitElement {
           margin: auto;
         }
       }
-    </style>`;
+    `;
+  }
 
   render() {
     return html`
